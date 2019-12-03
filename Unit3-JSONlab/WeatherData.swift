@@ -40,7 +40,7 @@ extension WeatherData {
         }
         do {
             let data = try Data(contentsOf: fileURL)
-           // print(data)
+          
             let cityWeatherData = try JSONDecoder().decode(WeatherData.self, from: data)
             weatherLines = cityWeatherData.list
         } catch {
