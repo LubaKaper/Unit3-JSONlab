@@ -16,6 +16,10 @@
 		8D18BD69238DD31D008EAFCE /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D18BD68238DD31C008EAFCE /* weather.json */; };
 		8D18BD6B238DD4C0008EAFCE /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18BD6A238DD4C0008EAFCE /* WeatherData.swift */; };
 		8D34B1FE2395E5A8009AAC25 /* DetailWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34B1FD2395E5A8009AAC25 /* DetailWeatherViewController.swift */; };
+		8D34B2002396AF3D009AAC25 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D34B1FF2396AF3D009AAC25 /* colors.json */; };
+		8D34B2062396E7AF009AAC25 /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D34B2052396E7AF009AAC25 /* ColorData.swift */; };
+		8D5797152397312900355B1D /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5797142397312900355B1D /* ColorsViewController.swift */; };
+		8D5797172397329B00355B1D /* DetailColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5797162397329B00355B1D /* DetailColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		8D18BD68238DD31C008EAFCE /* weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
 		8D18BD6A238DD4C0008EAFCE /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		8D34B1FD2395E5A8009AAC25 /* DetailWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeatherViewController.swift; sourceTree = "<group>"; };
+		8D34B1FF2396AF3D009AAC25 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		8D34B2052396E7AF009AAC25 /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		8D5797142397312900355B1D /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		8D5797162397329B00355B1D /* DetailColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 				8D34B1FD2395E5A8009AAC25 /* DetailWeatherViewController.swift */,
 				8D18BD6A238DD4C0008EAFCE /* WeatherData.swift */,
 				8D18BD68238DD31C008EAFCE /* weather.json */,
+				8D5797142397312900355B1D /* ColorsViewController.swift */,
+				8D5797162397329B00355B1D /* DetailColorViewController.swift */,
+				8D34B2052396E7AF009AAC25 /* ColorData.swift */,
+				8D34B1FF2396AF3D009AAC25 /* colors.json */,
 				8D18BD5A238DCCF8008EAFCE /* Main.storyboard */,
 				8D18BD5D238DCCFC008EAFCE /* Assets.xcassets */,
 				8D18BD5F238DCCFC008EAFCE /* LaunchScreen.storyboard */,
@@ -135,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D18BD69238DD31D008EAFCE /* weather.json in Resources */,
+				8D34B2002396AF3D009AAC25 /* colors.json in Resources */,
 				8D18BD61238DCCFC008EAFCE /* LaunchScreen.storyboard in Resources */,
 				8D18BD5E238DCCFC008EAFCE /* Assets.xcassets in Resources */,
 				8D18BD5C238DCCF8008EAFCE /* Main.storyboard in Resources */,
@@ -148,11 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5797152397312900355B1D /* ColorsViewController.swift in Sources */,
 				8D34B1FE2395E5A8009AAC25 /* DetailWeatherViewController.swift in Sources */,
 				8D18BD59238DCCF8008EAFCE /* WeatherViewController.swift in Sources */,
+				8D5797172397329B00355B1D /* DetailColorViewController.swift in Sources */,
 				8D18BD55238DCCF8008EAFCE /* AppDelegate.swift in Sources */,
 				8D18BD6B238DD4C0008EAFCE /* WeatherData.swift in Sources */,
 				8D18BD57238DCCF8008EAFCE /* SceneDelegate.swift in Sources */,
+				8D34B2062396E7AF009AAC25 /* ColorData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

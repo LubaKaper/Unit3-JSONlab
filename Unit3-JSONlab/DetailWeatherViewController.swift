@@ -43,7 +43,7 @@ class DetailWeatherViewController: UIViewController {
         highestTempLabel.text = "Highest temperature today is \(weather.main.temp_max)"
         humidityLabel.text = "Humidity: \(weather.main.humidity)"
         pressureLabel.text = "Pressure: \(weather.main.pressure)"
-        //descriptionLabel.text = weather.weather.main
+        descriptionLabel.text = weather.weather.first?.description
     }
     
 }
